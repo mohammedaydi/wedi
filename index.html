@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wedi</title>
+    <link rel="stylesheet" href="./styles/heading.css" />
+    <link rel="stylesheet" href="./styles/container.css" />
+    <link rel="stylesheet" href="./styles/filter.css" />
+    <script type="module" src="scripts/app.js"></script>
+    <script type="module" src="scripts/handlers.js"></script>
+  </head>
+  <body>
+    <div class="heading">
+      <div class="heading-cover">
+        <h1>Wedi</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+          voluptas fuga minus laborum deleniti rerum culpa assumenda nulla
+          sapiente, labore nisi libero quos fugit eius doloremque, ipsum
+          reiciendis neque quibusdam?
+        </p>
+      </div>
+    </div>
+    <div class="filter-box">
+      <div class="filter-box__container">
+        <div class="filter-box__title">
+          <h1>Category Filter</h1>
+        </div>
+        <div class="filter-box__buttons" id="filterBtns">
+          <button
+            id="food"
+            onmouseover="colorHandler(event)"
+            onclick="filterHandler(event)"
+            onmouseleave="removeColors(event)"
+          >
+            Food
+          </button>
+          <button>Eelctonics</button>
+          <button>Clothes</button>
+        </div>
+      </div>
+    </div>
+    <div class="items-container">
+      <ul class="item-list" id="cont"></ul>
+    </div>
+    <script type="module" src="scripts/app.js"></script>
+  </body>
+</html>
