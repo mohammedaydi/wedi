@@ -52,9 +52,10 @@ body {
 .heading-cover p {
   color: white;
   width: 40%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   min-width: 24rem;
   text-align: center;
   text-justify: initial;
   text-shadow: 7px 7px 10px black;
+  line-height: 1.5rem;
 }
